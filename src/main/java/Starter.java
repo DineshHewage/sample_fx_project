@@ -11,7 +11,7 @@ public class Starter extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/itemManagment.fxml"))));
+        stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/Table.fxml"))));
         stage.setTitle("Dashbord");
         stage.show();
     }
